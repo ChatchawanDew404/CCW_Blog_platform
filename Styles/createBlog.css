@@ -1,0 +1,51 @@
+:root{
+    --black:#000;
+    --gray:#2b2929;
+    --orange:#f74f01;
+    --orange_hover:#c53f01;
+    --white_hover:#d5d5d5;
+    --white:#fff;
+}
+
+.createBlog .container{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    background: var(--white);
+}
+
+.createBlog .container h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.createBlog .container form input{
+    padding: 2rem;
+    font-size: 1.8rem;
+    width: 100%;
+    background: rgb(243, 243, 243);
+    border: none;
+    margin-bottom: 2rem;
+}
+.createBlog .container form textarea{
+    padding: 2rem;
+    font-size: 1.8rem;
+    width: 100%;
+    background: rgb(243, 243, 243);
+    border: none;
+    margin-bottom: 2rem;
+    resize: none;
+}
+
+.createBlog .container form button{
+    font-size: 1.8rem;
+    padding: 2rem 6rem;
+    background: var(--orange);
+    border: none;
+    color: var(--white);
+}
+
+.createBlog .container form button:hover{
+    background-color: var(--orange_hover);
+    cursor: pointer;
+}

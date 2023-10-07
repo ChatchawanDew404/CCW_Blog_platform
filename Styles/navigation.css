@@ -1,0 +1,91 @@
+:root{
+    --black:#000;
+    --gray:#2b2929;
+    --orange:#f74f01;
+    --orange_hover:#c53f01;
+    --white_hover:#d5d5d5;
+    --white:#fff;
+}
+
+nav{
+    width: 100%;
+    background:var(--gray);
+    }
+    
+    nav .container{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    nav .container .logo{
+        font-size: 3rem;
+        font-weight: 800;
+        color: white;
+    }
+    
+    
+    nav .container ul{
+        display: flex;
+        gap: 2rem;
+    }
+    nav .container ul li{
+       font-size: 1.6rem;
+    }
+    nav .container ul li.sign_up_btn{
+       font-size: 1.6rem;
+       border: 1px solid var(--orange);
+       background: var(--orange);
+       color: white;
+       padding: 1rem 3rem;
+       font-weight: 500;
+       border-radius: 5px;
+    }
+    nav .container ul li.login_btn{
+       font-size: 1.6rem;
+       border: 1px solid white;
+       background: white;
+       padding: 1rem 3rem;
+       color: black;
+       font-weight: 500;
+       border-radius: 5px;
+    
+    }
+    
+    nav .container ul li.sign_up_btn:hover{
+    background: var(--orange_hover);
+    cursor: pointer;
+    }
+     nav .container ul li.login_btn:hover{
+        background: var(--white_hover);
+        cursor: pointer;
+    }
+
+
+
+/* ------------------------------------------- */
+/*                  MEDIA QUERY */
+/* ------------------------------------------- */
+
+@media only screen and (max-width:480px){
+  
+    nav .container .logo{
+        font-size: 2rem;
+        font-weight: 800;
+        color: white;
+    }
+    nav .container ul li.sign_up_btn{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+     }
+     nav .container ul li.login_btn{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+     
+     }
+ 
+}
+
+/* *{border: 1px solid red;} */

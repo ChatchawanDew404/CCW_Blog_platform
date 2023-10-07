@@ -1,0 +1,188 @@
+:root{
+    --black:#000;
+    --gray:#2b2929;
+    --orange:#f74f01;
+    --orange_hover:#c53f01;
+    --white_hover:#d5d5d5;
+    --white:#fff;
+}
+
+
+/* ---- User Blog */
+.userBlog{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+}
+.userBlog .leftBx{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.userBlog .leftBx .text{
+    font-size: 2rem;
+}
+
+.userBlog .leftBx .image{
+border-radius: 50%;
+}
+.userBlog .leftBx .image img{
+border-radius: 50%;
+max-width: 8rem;
+}
+
+.userBlog .createBlog_btn{
+    font-size: 1.6rem;
+    background: var(--orange);
+    color: white;
+    padding: 1.2rem 3rem;
+    border-radius: 5px;
+}
+.userBlog .createBlog_btn:hover{
+    background: var(--orange_hover);
+    cursor: pointer;
+}
+
+
+/* Your Blog Layout */
+.yourBlog .container  .heading{
+    font-size: 3rem;
+    background: var(--white);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+.yourBlog .container  .blog_row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.yourBlog .container  .blog_row .blog_col{
+    padding: 1rem;
+    background:var(--white);
+}
+
+.yourBlog .container  .blog_row .blog_col .image{
+    position: relative;
+}
+.yourBlog .container  .blog_row .blog_col .image img{
+    width: 100%;
+    max-height: 20rem;
+}
+.yourBlog .container  .blog_row .blog_col .image .category{
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    padding: .5rem;
+    background: var(--orange);
+    border-radius: 5px;
+    color: white;
+}
+
+.yourBlog .container  .blog_row .blog_col .content h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.yourBlog .container  .blog_row .blog_col .content p{
+    margin-bottom: 2rem;
+}
+
+.yourBlog .container  .blog_row .blog_col .content .edit_btn{
+    margin-right: 1rem;
+    background: var(--orange);
+    padding: 1rem;
+    color: white;
+    border: none;
+}
+.yourBlog .container  .blog_row .blog_col .content .delete_btn{
+    background:rgb(163, 163, 163);
+    padding: 1rem;
+    color: white;
+    border: none;
+    }
+
+
+.yourBlog .container  .blog_row .blog_col .content .edit_btn:hover{
+    background: var(--orange_hover);
+    cursor: pointer;
+}
+.yourBlog .container  .blog_row .blog_col .content .delete_btn:hover{
+    background: var(--gray);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px){
+    html{
+      font-size: 55%;
+    }
+}
+
+
+@media only screen and (max-width:678px){
+   /* user login show  */
+   .userBlog{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1rem 3rem;
+}
+.userBlog .leftBx .text{
+    font-size: 1.5rem;
+}
+
+.userBlog .createBlog_btn{
+    font-size: 1.4rem;
+    background: var(--orange);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    min-width: 115px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+}
+    
+@media only screen and (max-width:480px){
+   /* User Blog */
+   .userBlog{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: white;
+    padding: 1rem 2rem;
+}
+
+}
+
