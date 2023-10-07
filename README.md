@@ -25,11 +25,11 @@ shows the user's personal information and blog entries.
 2. Open the project in folder.
 3. run website by Live server
 
-#How to use the website
+# How to use the website
 ![ccwBlog_img (2)](https://github.com/ChatchawanDew404/CCW_Blog_platform/assets/89406698/524c8d2b-47f2-41be-a1e4-333c1c803180)
 
 
-#This website was developed by
+# This website was developed by
 html
 css
 
